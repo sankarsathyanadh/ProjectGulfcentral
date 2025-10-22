@@ -4,7 +4,7 @@
   <div class="container-fluid  px-0 ">
     <div class="row g-0">
       <div class="col-md-6 col-lg-7 ">
-        <div class="signupbanner">
+        <div class="signupbanner  d-none d-md-block ">
            <div class=" signupbanner_signup banner_signup_gradient d-flex align-items-center justify-content-center ">
 
       <!-- <h3  >
@@ -19,13 +19,13 @@
         </div>
 
       </div>
-        <div class="col-md-6 col-lg-5 Signuppageright " >
+        <div class="col-md-6 col-lg-5 Signuppageright py-4 " >
           <div class="d-flex   align-items-center justify-content-center  "  >
             <div class="signupformsec flex-column  align-items-center justify-content-center " >
 
             <div class="row  mb-4 ">
               <div class="col-md-12 ">
-                          <img src="../../assets/images/logo.png" alt="logo" class="w-100" />
+                          <img src="assets/images/logo.png" alt="logo" class="w-100" />
                         </div>
               <div class="col-md-12 signupheadingR">
                 <h2>Signup</h2>
@@ -48,18 +48,12 @@
                         </div>
                       </div>
 
-
-
-
-
-
-
                       <div class="col-md-12">
                         <div class="mb-3 ">
                           <label for="PassSignup" class="form-label label_bold ">Phone</label>
                             <div class="position-relative">
                               <input type="text" class="form-control formselecttxtSignup pr_30px" id="PassSignup" >
-                              <img src="../../assets/images/phone.svg"  class="signup_txt_icon opacity_img " alt="" >
+                              <img src="assets/images/phone.svg"  class="signup_txt_icon opacity_img " alt="" >
                             </div>
 
                         </div>
@@ -69,7 +63,7 @@
                           <label for="PassSignup" class="form-label label_bold ">Email</label>
                             <div class="position-relative">
                               <input type="email" class="form-control formselecttxtSignup pr_30px" id="EmailSignup" >
-                              <img src="../../assets/images/envelope.svg"  class="signup_txt_icon opacity_img" alt="" >
+                              <img src="assets/images/envelope.svg"  class="signup_txt_icon opacity_img" alt="" >
                             </div>
 
                         </div>
@@ -79,20 +73,20 @@
                           <label for="PassSignup" class="form-label label_bold ">Password</label>
                             <div class="position-relative">
                               <input type="password" class="form-control formselecttxtSignup pr_30px" id="PassSignup" >
-                              <img src="../../assets/images/passwordsignupicon.svg"  class="signup_txt_icon " alt="" >
+                              <img src="assets/images/passwordsignupicon.svg"  class="signup_txt_icon " alt="" >
                             </div>
 
                         </div>
                       </div>
 
-                      <div class="col-md-12">
+                      <div class="col-md-12  pb-4 ">
                          <div class="row">
-                           <div class="col-md-5 col-lg-6">
-                              <label class=" termsTxtsignupsml" for="termsTxtsignup">
+                           <div class="col-5 col-md-5 col-lg-6">
+                              <label class=" termsTxtsignupsml cursor_point" for="termsTxtsignup">
                                  <p [routerLink]="['/Login']" > Already have an account? <span class="txt_red" >Sign in</span></p>
                               </label>
                            </div>
-                           <div class="col-md-7 col-lg-6" >
+                           <div class="col-7 col-md-7 col-lg-6  " >
                              <button [routerLink]="['/Login']"  class="btn btn btn_cost_org  btn_cost  float-end " id="SignupBtn" type="submit">  Signup</button>
                            </div>
                          </div>
@@ -121,10 +115,7 @@
 
 
                 </div>
-                <div class="col-md-12">
 
-
-                </div>
 
              </div>
             </div>

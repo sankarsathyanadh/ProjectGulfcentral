@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { RouterLink } from "@angular/router";
 
 @Component({
   selector: 'app-userdashboard',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './userdashboard.html',
   styleUrl: './userdashboard.css'
 })

@@ -4,6 +4,8 @@ import { Home } from './home/home';
 import { Signup } from './signup/signup';
 import { Dashboard } from './dashboard/dashboard';
 import { Userdashboard } from './userdashboard/userdashboard';
+import { Servicesgulfcentral } from './servicesgulfcentral/servicesgulfcentral';
+import { Usercreation } from './usercreation/usercreation';
 
 
 
@@ -15,7 +17,9 @@ export const routes: Routes = [
   {
     path : "Dashboard", component : Dashboard ,
      children : [
-             { path: "UserDashboard" , component : Userdashboard}
+             { path: "UserDashboard" , component : Userdashboard},
+             {path: "Servicegulfcentral" , component : Servicesgulfcentral},
+             {path :"Usercreation" , component : Usercreation }
      ]
 
   }
