@@ -1,0 +1,858 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 py-2">
+      <div class="card w-100">
+        <div class="card-body">
+          <h5 class="card-title">Personal Information</h5>
+          <div class="row g-3 py-2 align-items-stretch">
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold">Full Name</label>
+                <div class="position-relative">
+                  <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="roleselection" class="form-label">Gender</label>
+                <select
+                  id="roleselection"
+                  class="form-select form-control formselecttxtSignup"
+                  name="Gender"
+                  required
+                >
+                  <option selected value="" disabled>Select Gender</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold">Date of Birth</label>
+
+                <div class="input-group">
+                  <input
+                    class="form-control formselecttxt_date"
+                    placeholder="yyyy-mm-dd"
+                    name="dp"
+                    ngbDatepicker
+                    #d="ngbDatepicker"
+                  />
+                  <button
+                    class="btn btn-outline-secondary bi bi-calendar3"
+                    (click)="d.toggle()"
+                    type="button"
+                  ></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="PlaceofBirth" class="form-label label_bold">Place of Birth</label>
+                <div class="position-relative">
+                  <input type="text" class="form-control formselecttxtSignup" id="PlaceofBirth" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold">Nationality</label>
+                <div class="position-relative">
+                  <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="roleselection" class="form-label"> Marital Status</label>
+                <select
+                  id="roleselection"
+                  class="form-select form-control formselecttxtSignup"
+                  name="Gender"
+                  required
+                >
+                  <option selected value="" disabled>Select Marital Status</option>
+                  <option>Single</option>
+                  <option>Married</option>
+                  <option>Divorced</option>
+                  <option>Widowed</option>
+                  <option>Separated</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold">Religion</label>
+                <div class="position-relative">
+                  <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold">Languages Known</label>
+                <div class="position-relative">
+                  <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 py-2">
+      <div class="card w-100">
+        <div class="card-body">
+          <h5 class="card-title">Passport Details</h5>
+          <div class="row g-3 py-2 align-items-stretch">
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold">Passport Number</label>
+                <div class="position-relative">
+                  <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold">Date of Issue</label>
+
+                <div class="input-group">
+                  <input
+                    class="form-control formselecttxt_date"
+                    placeholder="yyyy-mm-dd"
+                    name="dp"
+                    ngbDatepicker
+                    #d="ngbDatepicker"
+                  />
+                  <button
+                    class="btn btn-outline-secondary bi bi-calendar3"
+                    (click)="d.toggle()"
+                    type="button"
+                  ></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold">Date of Expiry</label>
+
+                <div class="input-group">
+                  <input
+                    class="form-control formselecttxt_date"
+                    placeholder="yyyy-mm-dd"
+                    name="dp"
+                    ngbDatepicker
+                    #d="ngbDatepicker"
+                  />
+                  <button
+                    class="btn btn-outline-secondary bi bi-calendar3"
+                    (click)="d.toggle()"
+                    type="button"
+                  ></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="PlaceofBirth" class="form-label label_bold">Place of Issue</label>
+                <div class="position-relative">
+                  <input type="text" class="form-control formselecttxtSignup" id="PlaceofBirth" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold">Issuing Country</label>
+                <div class="position-relative">
+                  <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="roleselection" class="form-label">Type of Passport</label>
+                <select
+                  id="roleselection"
+                  class="form-select form-control formselecttxtSignup"
+                  name="Gender"
+                  required
+                >
+                  <option selected value="" disabled>Select Type of Passport</option>
+                  <option>Ordinary</option>
+                  <option>Diplomatic</option>
+                  <option>Official Passport</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-8 col-lg-6">
+              <div class="mb-3">
+                <label for="formFile" class="form-label"
+                  >Upload Passport Front & Back Scans (PDF/JPEG)</label
+                >
+                <input class="form-control formselecttxtSignup" type="file" id="formFile" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 py-2">
+      <div class="card w-100">
+        <div class="card-body">
+          <h5 class="card-title">Contact Information</h5>
+          <div class="row g-3 py-2 align-items-stretch">
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold"
+                  >Permanent Residential Address</label
+                >
+                <div class="position-relative">
+                  <textarea
+                    class="form-control formselecttxtSignup"
+                    id="exampleFormControlTextarea1"
+                    rows="6"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 col-lg-9">
+              <div class="row gx-3">
+                <div class="col-md-4 col-lg-4">
+                  <div class="mb-3">
+                    <label for="NameSignup" class="form-label label_bold">Country</label>
+                    <div class="position-relative">
+                      <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                  <div class="mb-3">
+                    <label for="NameSignup" class="form-label label_bold">State</label>
+                    <div class="position-relative">
+                      <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                  <div class="mb-3">
+                    <label for="NameSignup" class="form-label label_bold">City</label>
+                    <div class="position-relative">
+                      <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                  <div class="mb-3">
+                    <label for="NameSignup" class="form-label label_bold">Email Address</label>
+                    <div class="position-relative">
+                      <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                  <div class="mb-3">
+                    <label for="NameSignup" class="form-label label_bold">Mobile Number</label>
+                    <div class="position-relative">
+                      <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="PlaceofBirth" class="form-label label_bold"
+                  >Emergency Contact Name</label
+                >
+                <div class="position-relative">
+                  <input type="text" class="form-control formselecttxtSignup" id="PlaceofBirth" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold"
+                  >Emergency Contact Number</label
+                >
+                <div class="position-relative">
+                  <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 py-2">
+      <div class="card w-100">
+        <div class="card-body">
+          <h5 class="card-title">Occupation / Employment Details</h5>
+          <div class="row g-3 py-2 align-items-stretch">
+            <div class="col-md-8 col-lg-8">
+              <div class="row gx-3">
+                <div class="col-md-6 col-lg-6">
+                  <div class="mb-3">
+                    <label for="NameSignup" class="form-label label_bold"
+                      >Current Occupation / Job Title</label
+                    >
+                    <div class="position-relative">
+                      <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <div class="mb-3">
+                    <label for="NameSignup" class="form-label label_bold"
+                      >Company / Organization Name</label
+                    >
+                    <div class="position-relative">
+                      <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <div class="mb-3">
+                    <label for="NameSignup" class="form-label label_bold">
+                      Company Contact Number</label
+                    >
+                    <div class="position-relative">
+                      <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <div class="mb-3">
+                    <label for="NameSignup" class="form-label label_bold"
+                      >Monthly Income / Salary</label
+                    >
+                    <div class="position-relative">
+                      <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold">Company Address</label>
+                <div class="position-relative">
+                  <textarea
+                    class="form-control formselecttxtSignup"
+                    id="exampleFormControlTextarea1"
+                    rows="6"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="roleselection" class="form-label">Employment Type </label>
+                <select
+                  id="roleselection"
+                  class="form-select form-control formselecttxtSignup"
+                  name="Gender"
+                  required
+                >
+                  <option selected value="" disabled>Select Employment Type</option>
+                  <option>Permanent</option>
+                  <option>Contract</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold">Work Start Date</label>
+
+                <div class="input-group">
+                  <input
+                    class="form-control formselecttxt_date"
+                    placeholder="yyyy-mm-dd"
+                    name="dp"
+                    ngbDatepicker
+                    #d="ngbDatepicker"
+                  />
+                  <button
+                    class="btn btn-outline-secondary bi bi-calendar3"
+                    (click)="d.toggle()"
+                    type="button"
+                  ></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="PlaceofBirth" class="form-label label_bold">Designation</label>
+                <div class="position-relative">
+                  <input type="text" class="form-control formselecttxtSignup" id="PlaceofBirth" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold">Department</label>
+                <div class="position-relative">
+                  <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 py-2">
+      <div class="card w-100">
+        <div class="card-body">
+          <h5 class="card-title">Travel Details</h5>
+          <div class="row g-3 py-2 align-items-stretch">
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="roleselection" class="form-label">Purpose of Visit</label>
+                <select
+                  id="roleselection"
+                  class="form-select form-control formselecttxtSignup"
+                  name="Gender"
+                  required
+                >
+                  <option selected value="" disabled>Purpose of Visit</option>
+                  <option>Tourism</option>
+                  <option>Business</option>
+                  <option>Transit</option>
+                  <option>Family Visit</option>
+                  <option>Employment</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold"
+                  >Intended Date of Entry into UAE
+                </label>
+
+                <div class="input-group">
+                  <input
+                    class="form-control formselecttxt_date"
+                    placeholder="yyyy-mm-dd"
+                    name="dp"
+                    ngbDatepicker
+                    #d="ngbDatepicker"
+                  />
+                  <button
+                    class="btn btn-outline-secondary bi bi-calendar3"
+                    (click)="d.toggle()"
+                    type="button"
+                  ></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="roleselection" class="form-label">Intended Duration of Stay</label>
+                <select
+                  id="roleselection"
+                  class="form-select form-control formselecttxtSignup"
+                  name="Gender"
+                  required
+                >
+                  <option selected value="" disabled>Duration of Stay</option>
+                  <option>30 Days</option>
+                  <option>60 Days</option>
+                  <option>90 Days</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="roleselection" class="form-label">Port of Entry</label>
+                <select
+                  id="roleselection"
+                  class="form-select form-control formselecttxtSignup"
+                  name="Gender"
+                  required
+                >
+                  <option selected value="" disabled>Port of Entry</option>
+                  <option>Dubai</option>
+                  <option>Abu Dhabi /</option>
+                  <option>Sharjah</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="roleselection" class="form-label">Previous Visits to UAE</label>
+                <div class="d-flex">
+                  <div class="form-check mr-1">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1"> Yes </label>
+                  </div>
+                  &nbsp;
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault2"
+                      checked
+                    />
+                    <label class="form-check-label" for="flexRadioDefault2"> No </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold">If Yes, mention dates </label>
+
+                <div class="input-group">
+                  <input
+                    class="form-control formselecttxt_date"
+                    placeholder="yyyy-mm-dd"
+                    name="dp"
+                    ngbDatepicker
+                    #d="ngbDatepicker"
+                  />
+                  <button
+                    class="btn btn-outline-secondary bi bi-calendar3"
+                    (click)="d.toggle()"
+                    type="button"
+                  ></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold">Expected Exit Date </label>
+
+                <div class="input-group">
+                  <input
+                    class="form-control formselecttxt_date"
+                    placeholder="yyyy-mm-dd"
+                    name="dp"
+                    ngbDatepicker
+                    #d="ngbDatepicker"
+                  />
+                  <button
+                    class="btn btn-outline-secondary bi bi-calendar3"
+                    (click)="d.toggle()"
+                    type="button"
+                  ></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold"
+                  >Travel Itinerary (if available)</label
+                >
+                <div class="position-relative">
+                  <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 py-2">
+      <div class="card w-100">
+        <div class="card-body">
+          <h5 class="card-title">Accommodation Details</h5>
+          <div class="row g-3 py-2 align-items-stretch">
+            <div class="col-md-4 col-lg-4">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold"> Hotel Name & Address</label>
+                <div class="position-relative">
+                  <textarea
+                    class="form-control formselecttxtSignup"
+                    id="exampleFormControlTextarea1"
+                    rows="6"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold">
+                  Relative / Sponsor’s Address in UAE</label
+                >
+                <div class="position-relative">
+                  <textarea
+                    class="form-control formselecttxtSignup"
+                    id="exampleFormControlTextarea1"
+                    rows="6"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-lg-4">
+              <div class="row gx-3">
+                <div class="col-md-12 col-lg-12">
+                  <div class="mb-3">
+                    <label for="NameSignup" class="form-label label_bold"
+                      >Contact Number in UAE</label
+                    >
+                    <div class="position-relative">
+                      <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-12">
+                  <div class="mb-3">
+                    <label for="NameSignup" class="form-label label_bold"
+                      >Relationship with Sponsor</label
+                    >
+                    <div class="position-relative">
+                      <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 py-2">
+      <div class="card w-100">
+        <div class="card-body">
+          <h5 class="card-title"> Sponsor / Reference Details (for family or employment visas)</h5>
+          <div class="row g-3 py-2 align-items-stretch">
+            <div class="col-md-8 col-lg-8">
+              <div class="row gx-3">
+                <div class="col-md-6 col-lg-6">
+                  <div class="mb-3">
+                    <label for="NameSignup" class="form-label label_bold"
+                      >Sponsor’s Full Name</label
+                    >
+                    <div class="position-relative">
+                      <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <div class="mb-3">
+                    <label for="NameSignup" class="form-label label_bold"
+                      >Sponsor’s Nationality</label
+                    >
+                    <div class="position-relative">
+                      <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <div class="mb-3">
+                    <label for="NameSignup" class="form-label label_bold">
+                       Emirates ID</label
+                    >
+                    <div class="position-relative">
+                      <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <div class="mb-3">
+                    <label for="NameSignup" class="form-label label_bold"
+                      >Relationship to Applicant</label
+                    >
+                    <div class="position-relative">
+                      <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold">Sponsor’s Address </label>
+                <div class="position-relative">
+                  <textarea
+                    class="form-control formselecttxtSignup"
+                    id="exampleFormControlTextarea1"
+                    rows="6"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="roleselection" class="form-label">Sponsor’s Contact Number </label>
+                <select
+                  id="roleselection"
+                  class="form-select form-control formselecttxtSignup"
+                  name="Gender"
+                  required
+                >
+                  <option selected value="" disabled>Select Employment Type</option>
+                  <option>Permanent</option>
+                  <option>Contract</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="PlaceofBirth" class="form-label label_bold">Sponsor’s Occupation</label>
+                <div class="position-relative">
+                  <input type="text" class="form-control formselecttxtSignup" id="PlaceofBirth" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+              <div class="mb-3">
+                <label for="NameSignup" class="form-label label_bold">Company Name
+</label>
+                <div class="position-relative">
+                  <input type="text" class="form-control formselecttxtSignup" id="NameSignup" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <div class="col-md-12 py-2">
+      <div class="card w-100">
+        <div class="card-body">
+          <h5 class="card-title">Supporting Documents</h5>
+          <div class="row g-3 py-2 align-items-stretch">
+
+
+            <div class="col-md-4 col-lg-4">
+              <div class="mb-3">
+                <label for="formFile" class="form-label"
+                  >Passport copy (front & back)</label
+                >
+                <input class="form-control formselecttxtSignup" type="file" id="formFile" />
+              </div>
+            </div>
+             <div class="col-md-4 col-lg-4">
+              <div class="mb-3">
+                <label for="formFile" class="form-label"
+                  >Passport-size photo </label
+                >
+                <input class="form-control formselecttxtSignup" type="file" id="formFile" />
+              </div>
+            </div>
+             <div class="col-md-4 col-lg-4">
+              <div class="mb-3">
+                <label for="formFile" class="form-label"
+                  >Flight booking confirmation (optional)</label
+                >
+                <input class="form-control formselecttxtSignup" type="file" id="formFile" />
+              </div>
+            </div>
+             <div class="col-md-4 col-lg-4">
+              <div class="mb-3">
+                <label for="formFile" class="form-label"
+                  >Hotel booking / UAE address proof</label
+                >
+                <input class="form-control formselecttxtSignup" type="file" id="formFile" />
+              </div>
+            </div>
+             <div class="col-md-4 col-lg-4">
+              <div class="mb-3">
+                <label for="formFile" class="form-label"
+                  >Proof of relationship (for family visa)</label
+                >
+                <input class="form-control formselecttxtSignup" type="file" id="formFile" />
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+              <div class="mb-3">
+                <label for="formFile" class="form-label"
+                  >Residence visa copy / Emirates ID </label
+                >
+                <input class="form-control formselecttxtSignup" type="file" id="formFile" />
+                <!-- <span class="small" >if invited by a resident</span> -->
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+              <div class="mb-3">
+                <label for="formFile" class="form-label"
+                  >Bank statement (for some visa types)</label
+                >
+                <input class="form-control formselecttxtSignup" type="file" id="formFile" />
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+              <div class="mb-3">
+                <label for="formFile" class="form-label"
+                  >Travel insurance (mandatory for tourist visa)</label
+                >
+                <input class="form-control formselecttxtSignup" type="file" id="formFile" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <div class="col-md-12 py-2">
+      <div class="card w-100">
+        <div class="card-body">
+          <h5 class="card-title">Additional (for employment or residence visa)</h5>
+          <div class="row g-3 py-2 align-items-stretch">
+
+
+            <div class="col-md-4 col-lg-4">
+              <div class="mb-3">
+                <label for="formFile" class="form-label"
+                  > Offer Letter or Employment Contract</label
+                >
+                <input class="form-control formselecttxtSignup" type="file" id="formFile" />
+              </div>
+            </div>
+             <div class="col-md-4 col-lg-4">
+              <div class="mb-3">
+                <label for="formFile" class="form-label"
+                  >Medical Fitness Certificate (for long-term visa) </label
+                >
+                <input class="form-control formselecttxtSignup" type="file" id="formFile" />
+              </div>
+            </div>
+             <div class="col-md-4 col-lg-4">
+              <div class="mb-3">
+                <label for="formFile" class="form-label"
+                  >Educational Certificates (attested)</label
+                >
+                <input class="form-control formselecttxtSignup" type="file" id="formFile" />
+              </div>
+            </div>
+             <div class="col-md-4 col-lg-4">
+              <div class="mb-3">
+                <label for="formFile" class="form-label"
+                  >Work Permit / Labour Approval</label
+                >
+                <input class="form-control formselecttxtSignup" type="file" id="formFile" />
+              </div>
+            </div>
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=" col-lg-12" >
+                                       <!-- <button [routerLink]="['/Dashboard/Servicegulfcentral']"  class="btn btn btn_cost_org_light  btn_cost  float-end  cursor_point" id="SignupBtn" type="submit">  Save as Draft</button> -->
+                                       <button [routerLink]="['/Dashboard/Servicegulfcentral']"  class="btn btn btn_cost_org  btn_cost  float-end  cursor_point" id="SignupBtn" type="submit">  Save</button>
+                                     </div>
+  </div>
+</div>

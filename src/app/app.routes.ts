@@ -6,6 +6,7 @@ import { Dashboard } from './dashboard/dashboard';
 import { Userdashboard } from './userdashboard/userdashboard';
 import { Servicesgulfcentral } from './servicesgulfcentral/servicesgulfcentral';
 import { Usercreation } from './usercreation/usercreation';
+import { Visaapplication } from './visaapplication/visaapplication';
 
 
 
@@ -19,7 +20,8 @@ export const routes: Routes = [
      children : [
              { path: "UserDashboard" , component : Userdashboard},
              {path: "Servicegulfcentral" , component : Servicesgulfcentral},
-             {path :"Usercreation" , component : Usercreation }
+             {path :"Usercreation" , component : Usercreation },
+             {path : "VisaApplication" , component : Visaapplication}
      ]
 
   }
